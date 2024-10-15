@@ -1,0 +1,31 @@
+name: your_project_name
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # เพิ่ม Google Fonts ตรงนี้
+  google_fonts: ^5.0.0
+
+  # Add other dependencies here as needed
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # เพิ่ม assets ของคุณตรงนี้
+  assets:
+    - assets/images/tree1.jpg
+    - assets/images/tree2.jpg
